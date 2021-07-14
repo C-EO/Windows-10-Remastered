@@ -18,10 +18,10 @@ git clone https://github.com/C-EO/Windows-10-Remastered.git
 /home/pi/Windows-10-Remastered/install
 ```
 ### To uninstall:
-``bash
+```bash
 /home/pi/Windows-10-Remastered/uninstall
 sudo apt purge xcompmgr gtk2-engines-murrine tint2 -y
-``
+```
 
 
 ## Contributing:
