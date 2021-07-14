@@ -10,17 +10,13 @@ Make Raspberry Pi OS look as close to Windows 10 as possible. Installs an ``icon
 This theme was originally designed by Botspot to change the look and feel of your Raspberry Pi OS but I redesigned it to intergrate more with your RaspiOS.
 
 ### To download:
-``bash
-
+```bash
 git clone https://github.com/C-EO/Windows-10-Remastered.git
-
-``
+```
 ### To install:
-``bash
-
+```bash
 /home/pi/Windows-10-Remastered/install
-
-``
+```
 ### To uninstall:
 ``bash
 /home/pi/Windows-10-Remastered/uninstall
