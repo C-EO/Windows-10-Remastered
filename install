@@ -1,6 +1,6 @@
 #!/bin/bash
-echo "Windows 10 transformation script
-Designed by Botspot
+echo "Windows 10 Remastered transformation script
+Designed by C-EO
 "
 
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
@@ -33,7 +33,7 @@ echo ""
 sudo apt install xcompmgr tint2 gtk2-engines-murrine -y --no-install-recommends
 echo ""
 echo ""
-echo "Installation complete. Refreshing desktop session now, but rebooting is recommended."
+echo "Installation complete. Refreshing desktop session now, but rebooting is recommended for the changes to take full effect."
 sudo update-icon-caches /usr/share/icons/*
 sleep 1
 openbox --restart &>/dev/null
@@ -61,7 +61,7 @@ if [ -f /usr/bin/conky ];then
   sleep 1
 fi
 
-zenity --info --text="Have a look around.\nPlease let me know if there is anything I can improve. \n\n -Botspot" --icon-name=emblem-default --ellipsize &>/dev/null &
+zenity --info --text="Have a look around.\nPlease let me know if there is anything I can improve. \n\n -C-EO" --icon-name=emblem-default --ellipsize &>/dev/null &
 
 sleep 5
 exit 0
